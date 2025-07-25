@@ -163,3 +163,39 @@ body {
   line-height: 1.5;
   text-align: justify;
 }
+
+/*section*/
+
+.cta-section {
+  background: linear-gradient(90deg, #2870b6 0%, #071726 100%);
+  padding: 80px 0;
+  text-align: center;
+}
+
+.cta-section h2 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 32px;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.cta-btn {
+  display: inline-block;
+  background: #ffe082;
+  color: #222;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  padding: 16px 40px;
+  border-radius: 6px;
+  border: 2px solid #222;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.cta-btn:hover {
+  background: #ffd54f;
+  color: #000;
+}
