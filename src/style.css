@@ -172,6 +172,7 @@ body {
   background: linear-gradient(90deg, #2870b6 0%, #071726 100%);
   padding: 80px 0;
   text-align: center;
+  width: 100%;
 }
 
 .cta-section h2 {
@@ -244,15 +245,3 @@ body {
   display: block;
 }
 
-@media (max-width: 900px) {
-  .science-section {
-    flex-direction: column;
-    gap: 30px;
-    padding: 40px 10px 0 10px;
-  }
-  .science-image img {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-}
