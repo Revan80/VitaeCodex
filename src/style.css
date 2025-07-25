@@ -102,7 +102,12 @@ nav a:hover {
 }
 
 body {
+  background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('../public/images/backgroundHero.jpg') center/cover no-repeat;
+  color: #fff;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  min-height: 100vh;
 }
 
 .hero-content h1 {
@@ -112,4 +117,49 @@ body {
 .logo {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-weight: 700;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+  background: #f7f9fa;
+  padding: 60px 0;
+}
+
+.feature {
+  max-width: 350px;
+  text-align: center;
+}
+
+.feature-icon {
+  width: 130px;
+  height: 130px;
+  background: #206bb3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 30px auto;
+}
+
+.feature-icon img {
+  width: 60px;
+  height: 60px;
+  filter: invert(1);
+}
+
+.feature h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+
+.feature p {
+  font-size: 1.1rem;
+  color: #222;
+  line-height: 1.5;
+  text-align: justify;
 }
