@@ -493,3 +493,60 @@ body {
   margin-top: 2px;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
+
+/*--FOOTER--*/
+.site-footer {
+  background: #0a2233;
+  color: #fff;
+  padding: 50px 0 20px 0;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* <-- alignement vertical centré */
+  max-width: 1200px;
+  margin: 0 auto 20px auto;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 0 30px;
+}
+
+.footer-brand {
+  min-width: 200px;
+}
+
+.footer-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffe082;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.footer-brand p {
+  font-size: 1.1rem;
+  color: #b0c4d4;
+  margin: 0;
+}
+
+.footer-contact p {
+  font-size: 1.1rem;
+  color: #b0c4d4;
+  margin: 0;
+}
+
+.footer-contact a {
+  color: #ffe082;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  color: #b0c4d4;
+  font-size: 1rem;
+  border-top: 1px solid #19304a;
+  padding-top: 16px;
+}
