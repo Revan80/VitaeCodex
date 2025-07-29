@@ -292,7 +292,7 @@ body {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
-/*Biohacking aspect*/
+/*Biohacking aspects*/
 .biohacking-aspects {
   text-align: center;
   padding: 80px 0 40px 0;
@@ -353,4 +353,57 @@ body {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-weight: 500;
   line-height: 1.2;
+}
+
+.stats-section {
+  background: #f6f7f8;
+  text-align: center;
+  padding: 70px 0 90px 0;
+}
+
+.stats-section h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  color: #0a2233;
+  margin-bottom: 18px;
+}
+
+.stats-subtitle {
+  font-size: 1.4rem;
+  color: #19304a;
+  margin-bottom: 60px;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  min-width: 200px;
+}
+
+.stat-label {
+  font-size: 1.05rem;
+  color: #2870b6;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.stat-value {
+  font-size: 4.5rem;
+  font-weight: 500;
+  color: #111820;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin-top: 10px;
 }
